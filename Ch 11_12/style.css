@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(29, 28, 28, 0.925);
+}
+h1 {
+    font-size: 50px;
+    color: rgba(29, 28, 28, 0.925);
+}
+h2{
+    font-size: 30px;
+    font-family: serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-shadow: 5px 2px 4px #888484;
+
+}
+
+h3{
+    font-size: 30;
+    font-weight: bold;
+}
+
+p{
+    font-size: 22px;
+    line-height: 35px;
+}
+
+span{
+    font-size: 45px;
+}
+
+li a{
+    line-height: 50px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.list :hover {
+    color: blue;
+}
+
+.author{
+    font-family: serif;
+    text-align: center;
+}

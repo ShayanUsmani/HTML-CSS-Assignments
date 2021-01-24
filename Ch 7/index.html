@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Assignment 7</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="http://www.example.com/login.php" method="POST">
+        <fieldset style="width: 50%;">
+            <legend>Your Details:</legend>
+            <p>Name:
+                <input type="text" name="fullname" placeholder="John Smith">
+            </p>
+            <p>Email:
+                <input type="text" name="email" placeholder="example@example.com">
+            </p>
+        </fieldset>
+        <fieldset style="width: 50%;">
+            <legend>Your Review:</legend>
+            <p>How did you hear about us?
+                <select name="hear_about_us" style="width: 100;">
+                    <option>Google</option>
+                    <option>Social Media</option>
+                    <option>Friend</option>
+                    <option>Others</option>
+                </select>
+            </p>
+            <p>
+                Would you visit again?
+                <br>
+                <input type="radio" name="visitagain" value="yes" /> Yes
+                <input type="radio" name="visitagain" value="no" /> No
+                <input type="radio" name="visitagain" value="maybe" /> Maybe
+            </p>
+            <p>
+                Comments:
+                <br>
+                <textarea name="comments" rows="5" cols="50" placeholder="Enter your comments..."></textarea>
+            </p>
+            <p>
+                <input type="checkbox" value="email_for_updates" />
+                Sign me up for email updates
+            </p>
+            <br>
+            <br>
+            <button >Submit Review</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

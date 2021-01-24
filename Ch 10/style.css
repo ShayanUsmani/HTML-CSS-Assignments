@@ -1,0 +1,16 @@
+body {
+    background-color:rgba(250, 249, 249, 0.26);
+    font-family:serif;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+  }
